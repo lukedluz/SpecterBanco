@@ -1,0 +1,134 @@
+#   _____ _____  ______ _____ _______ ______ _____  ____          _   _  _____ ____
+# / ____|  __ \|  ____/ ____|__   __|  ____|  __ \|  _ \   /\   | \ | |/ ____/ __ \
+#| (___ | |__) | |__ | |       | |  | |__  | |__) | |_) | /  \  |  \| | |   | |  | |
+# \___ \|  ___/|  __|| |       | |  |  __| |  _  /|  _ < / /\ \ | . ` | |   | |  | |
+# ____) | |    | |___| |____   | |  | |____| | \ \| |_) / ____ \| |\  | |___| |__| |
+#|_____/|_|    |______\_____|  |_|  |______|_|  \_\____/_/    \_\_| \_|\_____\____/
+#
+# Desenvolvedor: Lucas L.
+# Discord: lukedluz#8795
+# Versão: 1.0
+# Site: https://specterplugins.com
+#
+
+
+#Placeholders
+#{saldo} = Saldo do player
+#{juros} = Porcentagem dos juros
+#{tempo} = Tempo de intervalo dos juros
+#{transacoes} = Número de transações do player
+#{quantia} = Quantia da transação
+
+#Permissões:
+
+#Porcentagem de juros
+Juros: '2'
+#Intervalo dos juros (em minutos)
+TempoJuros: '1440'
+
+#Itens
+Voltar:
+  Titulo: '&aVoltar'
+  Lore:
+    - ' '
+    - '&7aClique para voltar ao banco'
+
+Informacao:
+  Titulo: '&aInformação'
+  Lore:
+    - '&7Coloque seus coins no banco'
+    - '&7e os deixe salvo enquanto você'
+    - '&7você perderá 50% do seu saldo(em bolso) caso morra'
+    - '&7Você ganhará &b{juros} de juros &7a cada'
+    - '&7%tempo minutos (caso você esteja online)'
+
+Historico:
+  Titulo: '&aHistorico de transações'
+  Lore:
+    - '&8%transacoes transações'
+    - ' '
+
+Deposito:
+  Titulo: '&aDepositar coins'
+  Lore:
+    - '&7Seu saldo: &6{saldo}'
+    - ' '
+    - '&7Coloque seus coins no banco'
+    - '&7e os deixe salvo enquanto você'
+    - '&7embarca em aventuras'
+    - ' '
+    - '&7Você ganhará &b{juros} de juros &7a cada'
+    - '&7%tempo minutos (caso você esteja online)'
+    - ' '
+    - '&aClique para depositar'
+
+Deposito_Total:
+  Titulo: '&aTodos os coins'
+  Lore:
+    - ' '
+    - '&7Seu saldo: &6{saldo}'
+    - '&7Quantidade que depositará: &6{quantia}'
+    - ' '
+    - '&aClique para depositar'
+
+Deposito_Metade:
+  Titulo: '&aMetade dos coins'
+  Lore:
+    - ' '
+    - '&7Seu saldo: &6{saldo}'
+    - '&7Quantidade que depositará: &6{quantia}'
+    - ' '
+    - '&aClique para depositar'
+
+Deposito_Custom:
+  Titulo: '&aQuantidade especifica'
+  Lore:
+    - ' '
+    - '&7Seu saldo: &6{saldo}'
+    - ' '
+    - '&aClique para depositar'
+
+Saque:
+  Titulo: '&aSacar coins'
+  Lore:
+    - '&7Seu saldo: &6{saldo}'
+    - ' '
+    - '&7Pegue seus coins do banco'
+    - '&7para usa-los'
+    - ' '
+    - '&aClique para sacar'
+
+Saque_Total:
+  Titulo: '&aTodos os coins'
+  Lore:
+    - ' '
+    - '&7Seu saldo: &6{saldo}'
+    - '&7Quantidade que sacar: &6{quantia}'
+    - ' '
+    - '&aClique para sacar'
+
+Saque_Metade:
+  Titulo: '&aMetade dos coins'
+  Lore:
+    - ' '
+    - '&7Seu saldo: &6{saldo}'
+    - '&7Quantidade que sacar: &6{quantia}'
+    - ' '
+    - '&aClique para sacar'
+
+Saque_Porcentagem:
+  Titulo: '&a20% dos coins'
+  Lore:
+    - ' '
+    - '&7Seu saldo: &6{saldo}'
+    - '&7Quantidade que sacar: &6{quantia}'
+    - ' '
+    - '&aClique para sacar'
+
+Saque_Custom:
+  Titulo: '&aQuantidade especifica'
+  Lore:
+    - ' '
+    - '&7Seu saldo: &6{saldo}'
+    - ' '
+    - '&aClique para sacar'
